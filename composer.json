@@ -1,0 +1,28 @@
+{
+  "name": "fize/exception",
+  "description": "异常定义类库。",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FizeChan",
+      "email": "chenfengzhan@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fize\\Exception\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "fize/web": "^3.0.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.0"
+  }
+}
