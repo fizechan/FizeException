@@ -5,7 +5,7 @@ namespace Fize\Exception;
 use Throwable;
 
 /**
- * 第三方异常
+ * 异常：第三方异常
  */
 class ThirdException extends RuntimeException
 {

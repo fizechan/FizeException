@@ -22,7 +22,7 @@ class ClassNotFoundException extends NotFoundException
      * @param int            $code     错误码
      * @param Throwable|null $previous 前置错误
      */
-    public function __construct($class, string $message = null, int $code = 0, Throwable $previous = null)
+    public function __construct(string $class, string $message = null, int $code = 0, Throwable $previous = null)
     {
         $this->class = $class;
         if (is_null($message)) {
