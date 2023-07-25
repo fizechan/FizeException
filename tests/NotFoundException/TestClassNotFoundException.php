@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests;
+namespace Tests\NotFoundException;
 
-use Fize\Exception\ClassNotFoundException;
+use Fize\Exception\NotFoundException\ClassNotFoundException;
 use PHPUnit\Framework\TestCase;
 
 class TestClassNotFoundException extends TestCase

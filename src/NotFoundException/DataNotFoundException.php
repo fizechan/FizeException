@@ -1,6 +1,8 @@
 <?php
 
-namespace Fize\Exception;
+namespace Fize\Exception\NotFoundException;
+
+use Fize\Exception\NotFoundException;
 
 /**
  * 异常：未找到数据

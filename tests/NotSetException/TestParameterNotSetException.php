@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests;
+namespace Tests\NotSetException;
 
-use Fize\Exception\ParameterNotSetException;
+use Fize\Exception\NotSetException\ParameterNotSetException;
 use PHPUnit\Framework\TestCase;
 
 class TestParameterNotSetException extends TestCase

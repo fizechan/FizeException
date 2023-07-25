@@ -1,6 +1,6 @@
 <?php
 
-namespace Fize\Exception;
+namespace Fize\Exception\NotFoundException;
 
 use Throwable;
 

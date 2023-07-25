@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests;
+namespace Tests\NotFoundException;
 
-use Fize\Exception\DataNotFoundException;
+use Fize\Exception\NotFoundException\DataNotFoundException;
 use PHPUnit\Framework\TestCase;
 
 class TestDataNotFoundException extends TestCase

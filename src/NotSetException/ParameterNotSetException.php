@@ -1,7 +1,8 @@
 <?php
 
-namespace Fize\Exception;
+namespace Fize\Exception\NotSetException;
 
+use Fize\Exception\NotSetException;
 use Throwable;
 
 /**

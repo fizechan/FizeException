@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests;
+namespace Tests\NotFoundException;
 
-use Fize\Exception\MethodNotFoundException;
+use Fize\Exception\NotFoundException\MethodNotFoundException;
 use PHPUnit\Framework\TestCase;
 
 class TestMethodNotFoundException extends TestCase
