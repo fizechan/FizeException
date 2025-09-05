@@ -8,7 +8,7 @@
       "email": "chenfengzhan@qq.com"
     }
   ],
-  "version": "3.1.0",
+  "version": "3.2.0",
   "autoload": {
     "psr-4": {
       "Fize\\Exception\\": "src"
@@ -22,7 +22,11 @@
       "Tests\\": "tests"
     }
   },
+  "suggest": {
+    "fize/http": "For using the HttpException class."
+  },
   "require-dev": {
+    "fize/http": "*",
     "phpunit/phpunit": "^9.5.0"
   }
 }
