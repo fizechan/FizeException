@@ -27,6 +27,6 @@
   },
   "require-dev": {
     "fize/http": "*",
-    "phpunit/phpunit": "^9.5.0"
+    "phpunit/phpunit": "^9.6.34"
   }
 }
