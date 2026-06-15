@@ -18,11 +18,11 @@ class NotFoundException extends RuntimeException
     /**
      * 初始化
      * @param string         $path     路径
-     * @param string|null    $message  错误信息
+     * @param string         $message  错误信息
      * @param int            $code     错误码
      * @param Throwable|null $previous 前置错误
      */
-    public function __construct($path, string $message = null, int $code = 0, Throwable $previous = null)
+    public function __construct($path, string $message = "", int $code = 0, Throwable $previous = null)
     {
         $this->path = $path;
         parent::__construct($message, $code, $previous);
