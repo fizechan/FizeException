@@ -22,12 +22,13 @@ class DatabaseException extends RuntimeException
 
     /**
      * 构造
+     * @param string         $sql      SQL语句
+     * @param array|null     $bind     绑定参数
      * @param string         $message  错误信息
      * @param int            $code     错误码
      * @param Throwable|null $previous 前置错误
-     * @param string         $sql      SQL语句
      */
-    public function __construct(string $message = "", int $code = 0, Throwable $previous = null, string $sql = '', array $bind = null)
+    public function __construct(string $sql = '', array $bind = null, string $message = "", int $code = 0, Throwable $previous = null)
     {
         parent::__construct($message, $code, $previous);
         $this->sql = $sql;
