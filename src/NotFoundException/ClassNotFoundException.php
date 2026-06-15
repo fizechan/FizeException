@@ -29,7 +29,7 @@ class ClassNotFoundException extends NotFoundException
         if (is_null($message)) {
             $message = "Class 【 $class 】 Not Found!";
         }
-        parent::__construct($message, $code, $previous);
+        parent::__construct($class, $message, $code, $previous);
     }
 
     /**

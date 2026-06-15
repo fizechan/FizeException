@@ -25,7 +25,7 @@ class FunctionNotFoundException extends NotFoundException
         if (is_null($message)) {
             $message = "Function 【 $function 】Not Found!";
         }
-        parent::__construct($message, $code, $previous);
+        parent::__construct($function, $message, $code, $previous);
     }
 
     /**
